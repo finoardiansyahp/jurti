@@ -6,20 +6,20 @@ use Illuminate\Database\Eloquent\Model;
 
 class Kegiatan extends Model
 {
-    protected $table = 'Kegiatan';
+    protected $table = 'kegiatan';
 
-    protected $primaryKey = 'id_kegiatan';
+    protected $primaryKey = 'id';
 
     protected $keyType = 'string';
 
     public $incrementing = false;
 
     protected $fillable = [
-        'name','nama','keterangan','gambar'
+        'judul','kegiatan','gambar'
     ];
 
     public function user()
     {
-        return $this->belongsTo('App\User','nip')->first();
+        return $this->belongsTo('App\User','id')->first();
     }
 }

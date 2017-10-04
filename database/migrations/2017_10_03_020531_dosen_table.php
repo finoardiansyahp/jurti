@@ -14,7 +14,7 @@ class DosenTable extends Migration
     public function up()
     {
         Schema::create('dosen', function (Blueprint $table) {
-            $table->string('nip')->unique()->primary();
+            $table->string('id')->unique()->primary();
             $table->string('nama');
             $table->string('jabatan');
             $table->text('foto')->nullable();

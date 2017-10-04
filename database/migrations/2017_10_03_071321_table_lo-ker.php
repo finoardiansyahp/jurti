@@ -14,7 +14,7 @@ class TableLoKer extends Migration
     public function up()
     {
         Schema::create('loker', function (Blueprint $table) {
-            $table->string('id_loker')->unique()->primary();
+            $table->string('id')->unique()->primary();
             $table->string('judul');
             $table->string('kegiatan');
             $table->text('gambar');

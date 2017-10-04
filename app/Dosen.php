@@ -25,7 +25,7 @@ class Dosen extends Model
     ];
     protected $table = 'dosen';
 
-    protected $primaryKey = 'nip';
+    protected $primaryKey = 'id';
 
     protected $keyType = 'string';
 
@@ -37,7 +37,7 @@ class Dosen extends Model
 
     public function user()
     {
-        return $this->belongsTo('App\User','nip')->first();
+        return $this->belongsTo('App\User','id')->first();
     }
 }
 
