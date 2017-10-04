@@ -4,18 +4,18 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class dosen extends Model
+class Kegiatan extends Model
 {
-    protected $table = 'dosen';
+    protected $table = 'Kegiatan';
 
-    protected $primaryKey = 'nip';
+    protected $primaryKey = 'id_kegiatan';
 
     protected $keyType = 'string';
 
     public $incrementing = false;
 
     protected $fillable = [
-        'name','user','jabatan','foto'
+        'name','nama','keterangan','gambar'
     ];
 
     public function user()

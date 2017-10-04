@@ -17,7 +17,7 @@ class TablePrestasi extends Migration
             $table->string('id_prestasi')->unique()->primary();
             $table->string('judul');
             $table->string('kegiatan');
-            $table->text('gambar');
+            $table->text('gambar')->nullable();
             $table->timestamps();
         });
     }

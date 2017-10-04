@@ -17,7 +17,7 @@ class TableKegiatan extends Migration
             $table->string('id_kegiatan')->unique()->primary();
             $table->string('judul');
             $table->string('kegiatan');
-            $table->text('gambar');
+            $table->text('gambar')->nullable();
             $table->timestamps();
         });
     }
