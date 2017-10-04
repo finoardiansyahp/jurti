@@ -11,6 +11,5 @@ class KegiatanSeeder extends Seeder
      */
     public function run()
     {
-        //
     }
 }
