@@ -35,12 +35,12 @@
                 <div class="small-12 medium-4 large-2 columns">
                     <a href="index.html"><i class="fi-monitor"></i>
                         <br />
-                        beranda</a>
+                        dashboard</a>
                 </div>
                 <div class="small-12 medium-4 large-2 columns">
                     <a href="components.html"><i class="fi-graph-pie"></i>
                         <br />
-                        komponen</a>
+                        components</a>
                 </div>
                 <div class="small-12 medium-4 large-2 columns">
                     <a href="compose.html"><i class="fi-pencil"></i>
