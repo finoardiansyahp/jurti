@@ -21,20 +21,20 @@
 <div class="top-bar">
     <div class="top-bar-left">
         <ul class="menu">
-            <li><a href="#">Beranda</a></li>
+            <li><a href="beranda">Beranda</a></li>
             <li><a href="#">Profil</a></li>
-            <li><a href="#">Sejarah</a></li>
-            <li><a href="#">Visi dan Misi</a></li>
-            <li><a href="#">Kegiatan</a></li>
+            <li><a href="sejarah">Sejarah</a></li>
+            <li><a href="visidanmisi">Visi dan Misi</a></li>
+            <li><a href="kegiatanjurti">Kegiatan</a></li>
         </ul>
     </div>
     <div class="top-bar-right">
         <ul class="menu">
-            <li><a href="#">Kemahasiswaan</a></li>
-            <li><a href="#">Beasiswa</a></li>
-            <li><a href="#">Prestasi</a></li>
-            <li><a href="#">Lo-Ker</a></li>
-            <li><a href="#">Fasilitas</a></li>
+            <li><a href="kemahasiswaan">Kemahasiswaan</a></li>
+            <li><a href="beasiswa">Beasiswa</a></li>
+            <li><a href="prestasi">Prestasi</a></li>
+            <li><a href="loker">Lo-Ker</a></li>
+            <li><a href="fasilitas">Fasilitas</a></li>
         </ul>
     </div>
 </div>

@@ -64,3 +64,7 @@ Route::get('/fasiljur', function () {
 Route::get('/bea', function () {
     return view('bea');
 });
+
+Route::get('/dosen', function () {
+    return view('dosen');
+});
