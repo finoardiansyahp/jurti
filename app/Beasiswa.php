@@ -4,9 +4,10 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Kegiatan extends Model
+class Beasiswa extends Model
 {
-    protected $table = 'kegiatan';
+
+    protected $table = 'beasiswa';
 
     protected $primaryKey = 'id';
 
@@ -17,9 +18,4 @@ class Kegiatan extends Model
     protected $fillable = [
         'judul','keterangan','gambar'
     ];
-
-    public function user()
-    {
-        return $this->belongsTo('App\User','id')->first();
-    }
 }

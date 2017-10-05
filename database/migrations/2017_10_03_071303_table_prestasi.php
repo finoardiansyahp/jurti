@@ -16,7 +16,7 @@ class TablePrestasi extends Migration
         Schema::create('prestasi', function (Blueprint $table) {
             $table->string('id')->unique()->primary();
             $table->string('judul');
-            $table->string('kegiatan');
+            $table->text('keterangan');
             $table->text('gambar')->nullable();
             $table->timestamps();
         });

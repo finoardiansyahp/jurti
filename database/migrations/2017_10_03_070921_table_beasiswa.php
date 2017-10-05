@@ -16,8 +16,8 @@ class TableBeasiswa extends Migration
         Schema::create('beasiswa', function (Blueprint $table) {
             $table->string('id')->unique()->primary();
             $table->string('judul');
-            $table->string('keterangan');
-            $table->text('gambar');
+            $table->text('keterangan');
+            $table->text('gambar')->nullable();
             $table->timestamps();
         });
     }

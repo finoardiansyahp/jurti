@@ -16,8 +16,8 @@ class TableLoKer extends Migration
         Schema::create('loker', function (Blueprint $table) {
             $table->string('id')->unique()->primary();
             $table->string('judul');
-            $table->string('kegiatan');
-            $table->text('gambar');
+            $table->text('keterangan');
+            $table->text('gambar')->nullable();
             $table->timestamps();
         });
     }
