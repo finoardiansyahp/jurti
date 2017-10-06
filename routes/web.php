@@ -68,3 +68,4 @@ Route::get('/bea', function () {
 Route::get('/dosen', function () {
     return view('dosen');
 });
+Route::get('/dosen','DosenController@show');
