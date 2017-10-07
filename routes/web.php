@@ -69,3 +69,4 @@ Route::get('/dosen', function () {
     return view('dosen');
 });
 Route::get('/dosen','DosenController@show');
+Route::get('/kegiatan','KegiatanController@show');
