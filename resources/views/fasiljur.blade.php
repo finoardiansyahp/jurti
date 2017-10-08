@@ -19,29 +19,21 @@
 
 </head>
 <body>
-
 <div class="top-bar">
-    <div class="row">
-        <div class="top-bar-left">
-            <ul class="dropdown menu" data-dropdown-menu>
-                <li class="menu-text">JURTI</li>
-                <li><a href="beranda"><i class="fi-list-number"></i> <span>BERANDA</span></a></li>
-                <li class="has-submenu">
-                    <a href="#">PROFIL</a>
-                    <ul class="submenu menu vertical" data-submenu>
-                        <li><a href="visidanmisi">Visi dan Misi</a></li>
-                        <li><a href="sejarah">Sejarah Teknik Informatika</a></li>
-                        <li><a href="kemahasiswaan">Kemahasiswaan</a></li>
-                    </ul>
-                </li>
-                <li><a href="beasiswa">BEASISWA</a></li>
-                <li><a href="prestasi">PRESTASI</a></li>
-                <li><a href="loker">LO-KER</a></li>
-                <li><a href="kegiatanjurti">KEGIATAN</a></li>
-                <li><a href="fasilitas">FASILITAS</a></li>
-            </ul>
-        </div>
-
+    <div class="top-bar-left">
+        <ul class="menu">
+            <li><a href="beranda">Beranda</a></li>
+            <li><a href="sejarah">Sejarah</a></li>
+            <li><a href="kegiatanjurti">Kegiatan</a></li>
+            <li><a href="loker">Lo-Ker</a></li>
+        </ul>
+    </div>
+    <div class="top-bar-right">
+        <ul class="menu">
+            <li><a href="fasiljur">Fasilitas</a></li>
+            <li><a href="bea">Beasiswa</a></li>
+            <li><a href="prestasi">Prestasi</a></li>
+        </ul>
     </div>
 </div>
 

@@ -19,28 +19,21 @@
 </head>
 <body>
 
-<div class="top-bar" >
-    <div class="row">
-        <div class="top-bar-left">
-            <ul class="dropdown menu" data-dropdown-menu>
-                <li class="menu-text">JURTI</li>
-                <li><a href="beranda">Beranda</a> </li>
-                <li class="has-submenu">
-                    <a href="#">PROFIL</a>
-                    <ul class="submenu menu vertical" data-submenu>
-                        <li><a href="visidanmisi">Visi dan Misi</a></li>
-                        <li><a href="sejarah">Sejarah Teknik Informatika</a></li>
-                        <li><a href="kemahasiswaan">Kemahasiswaan</a></li>
-                    </ul>
-                </li>
-                <li><a href="bea">BEASISWA</a></li>
-                <li><a href="prestasi">PRESTASI</a></li>
-                <li><a href="loker">LO-KER</a></li>
-                <li><a href="kegiatanjurti">KEGIATAN</a></li>
-                <li><a href="fasiljur">FASILITAS</a></li>
-            </ul>
-        </div>
-
+<div class="top-bar">
+    <div class="top-bar-left">
+        <ul class="menu">
+            <li><a href="beranda">Beranda</a></li>
+            <li><a href="sejarah">Sejarah</a></li>
+            <li><a href="kegiatanjurti">Kegiatan</a></li>
+            <li><a href="loker">Lo-Ker</a></li>
+        </ul>
+    </div>
+    <div class="top-bar-right">
+        <ul class="menu">
+            <li><a href="fasiljur">Fasilitas</a></li>
+            <li><a href="bea">Beasiswa</a></li>
+            <li><a href="prestasi">Prestasi</a></li>
+        </ul>
     </div>
 </div>
 
@@ -50,7 +43,8 @@
     </div>
 </div>
 <!-- We can now combine rows and columns when there's only one column in that row -->
-<div class="row medium-8 large-7 columns">
+<div class="row" id="content">
+    <div class="medium-9 columns">
     <p><img src="../../../Users/Achmad Abdu Lathif/Documents/Unnamed Site 2/fix-banner123-copy11.jpg"> </p>
     <p>NAMA PENGURUS JURUSAN S1 TEKNIK INFORMATIKA PERIODE 2016 -2020 </p>
     <p>-&gt; KETUA JURUSAN<br>
@@ -100,6 +94,17 @@
         &gt;Lab Jaringan<br>
         IGL Putra Eka Prismana, S.Kom., M.M
     </p>
+</div>
+    <div class="medium-3 columns" data-sticky-container>
+        <div class="sticky" data-sticky data-anchor="content">
+            <h4>Profil</h4>
+            <ul>
+                <li><a href="visidanmisi">Visi Misi</a></li>
+                <li><a href="sejarah">Sejarah</a></li>
+            </ul>
+
+        </div>
+    </div>
 </div>
 <footer>
     <div class="map">

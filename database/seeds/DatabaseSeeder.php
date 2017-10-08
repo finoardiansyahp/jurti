@@ -14,12 +14,11 @@ class DatabaseSeeder extends Seeder
         \Illuminate\Database\Eloquent\Model::unguard();
         $this->call('DosenSeeder');
         $this->call('KegiatanSeeder');
-<<<<<<<
         $this->call('BeasiswaSeeder');
         $this->call('FasilitasSeeder');
         $this->call('PrestasiSeeder');
-=======
         $this->call('BeasiswaSeeder');
->>>>>>>
+        $this->call('BerandaSeeder');
+        $this->call('LokerSeeder');
     }
 }

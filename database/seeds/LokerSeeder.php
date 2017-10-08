@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
+
 use App\Loker;
 
 class LokerSeeder extends Seeder
@@ -35,5 +36,6 @@ class LokerSeeder extends Seeder
             'judul' => 'Shopee',
             'keterangan' => 'Shopee hadir di Indonesia untuk membawa pengalaman berbelanja baru. Kami memfasilitasi penjual untuk berjualan dengan mudah serta membekali pembeli dengan proses pembayaran yang aman dan pengaturan logistik yang terintegrasi!',
         ]);
+
     }
 }

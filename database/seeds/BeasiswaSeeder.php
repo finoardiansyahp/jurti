@@ -13,7 +13,7 @@ class BeasiswaSeeder extends Seeder
     public function run()
     {
         Beasiswa::create([
-            'id' => '100',
+            'id' => '10',
             'judul' => 'Beasiswa Bank Indonesia',
             'keterangan' => 'GenBI - Beasiswa BI 2017/2018 khusus Beasiswa Bank Indonesia 2017 Beasiswa menjadi suatu hal yang paling   diinginkan pelajar, tidak terkecuali mahasiswa. Beasiswa merupakan sebuah bantuan yang diberikan oleh lembaga, instansi atau perorangan dengan cara memperingan biaya pendidikan seseorang. Pintar dan berprestasi menjadi syarat mutlak untuk mendapatkan beasiswa. Namun beasiswa sendiri dapat dibedakan menjadi beberapa jenis. Ada beasiswa yang diberikan kepada mahasiswa yang berprestasi dan berasal dari keluarga yang kurang berada, dan juga beasiswa yang diberikan kepada semua mahasiswa yang berprestasi baik dari keluarga kaya maupun miskin. Salah satu jenis beasiswa yang dapat diperoleh oleh mahasiswa strata satu yaitu beasiswa Bank Indonesia. Hampir setiap tahun Bank Indonesia mengeluarkan beasiswa dengan syarat dan ketentuan untuk penerima beasiswa. 
             Informasi beasiswa Bank Indonesia dan Tujuannya
@@ -22,7 +22,7 @@ Hampir serupa dengan jenis beasiswa lainnya, beasiswa Bank Indonesia tentu memil
         ]);
         
         Beasiswa::create([
-            'id' => '101',
+            'id' => '11',
             'judul' => 'Beasiswa Bank Mandiri',
             'keterangan' =>'Beasiswa Mandiri - Info Beasiswa Mandiri 2017/2018 Mengenai Beasiswa Mandiri dan Cara Mengikutinya Apakah ada dari Anda yang sedang sibuk mempersiapkan pendidikan lanjut setelah lulus SMA? Dari waktu ke waktu, standarisasi pendidikan di Indonesia kian meningkat. Membuat sebagian besar orang terus berupaya dapat menempuh pendidikan setinggi mungkin. Sama halnya dengan para pelajar yang sebentar lagi lulus. 
             Tidak sedikit yang berpikir untuk langsung bekerja, namun tidak sedikit juga yang berpikir untuk melanjutkan pendidikan kuliah. Bagi yang berpikir dan berkeinginan ingin melanjutkan pendidikan kuliah, biaya kuliah yang cukup tinggi sering menjadi salah satu kendala. Maka program beasiswa seperti beasiswa Mandiri banyak dicari. Selain untuk meringankan pengeluaran biaya, ada banyak kelebihan yang bisa didapatkan ketika Anda mendapatkan beasiswa tersebut.
@@ -34,7 +34,7 @@ Hampir serupa dengan jenis beasiswa lainnya, beasiswa Bank Indonesia tentu memil
         ]);
 
         Beasiswa::create([
-            'id' => '103',
+            'id' => '12',
             'judul' => 'Beasiswa Bank LPDP',
             'keterangan' => 'Akhirnya kabar yang ditunggu ini muncul juga. Beasiswa LPDP 2017 kini resmi dibuka. LPDP menyediakanbeasiswa S2, beasiswa S3 dan sejumlah program beasiswa menarik lainnya. Salah satu beasiswa LPDP yang paling diminati adalah Beasiswa Pendidikan Indonesia(BPI) Program Magister dan Doktoral.
 
@@ -60,7 +60,7 @@ Hampir serupa dengan jenis beasiswa lainnya, beasiswa Bank Indonesia tentu memil
         ]);
 
         Beasiswa::create([
-            'id' => '104',
+            'id' => '13',
             'judul' => 'Pendaftaran Beasiswa PPA 2017 - 2018 untuk S1/DIV dan D3',
             'keterangan' => 'Beragam beasiswa kuliah bisa Anda coba untuk mendanai kebutuhan studi yang membebani di 2017. Peluang beasiswa itu ada yang ditujukan bagi pelamar yang baru akan kuliah atau mereka yang saat ini sedang menjalani studi (on going). Nah, peluang beasiswa satu ini ditujukan bagi Anda yang sudah berstatus mahasiswa, baik yang tengah kuliah di perguruan tinggi negeri (PTN) atau pun perguruan tinggi swasta (PTS). Namanya sudah tidak asing. Beasiswa Peningkatan Prestasi Akademik (Beasiswa-PPA) dan Bantuan Biaya Pendidikan Peningkatan Prestasi Akademik (BPP-PPA). Tahun akademik 2017 - 2018, Kementerian Ristekdikti menyiapkan beasiswa tersebut untuk 130 ribu mahasiswa di Tanah Air. Baik PTN maupun PTS.
 
