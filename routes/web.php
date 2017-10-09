@@ -75,6 +75,12 @@ Route::get('infobeasiswa/{id}',[
         'uses'=> 'infobeasiswaController@show'
 ]);
 
+Route::get('infokegiatan/{id}',[
+    'uses'=> 'infokegiatanController@show'
+]);
+
+Route::get('/test-{id}','InfoKegiatanController@test')->name('test');
+
 Route::get('/dosen1','DosenController@show');
 Route::get('/kegiatan','KegiatanController@show');
 Route::get('/bea','BeasiswaController@show');

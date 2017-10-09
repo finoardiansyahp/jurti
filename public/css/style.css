@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6 {
 /*General*/
 
 .intro {
-    background: url(../img/fourway.jpg) no-repeat center center;
+    /*background: url(../img/fourway.jpg) no-repeat center center;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -192,7 +192,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Contact */
 
 .contact {
-    background-image: url('../img/fourway.jpg');
+    /*background-image: url('../img/fourway.jpg');*/
     background-position: center center;
     min-height: 200px;
     padding: 20px;
