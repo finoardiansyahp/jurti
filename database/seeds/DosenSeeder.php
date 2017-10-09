@@ -18,6 +18,8 @@ class DosenSeeder extends Seeder
             'nama' => 'Prof. Dr. Ekohariadi, M.Pd',
             
             'jabatan' => Dosen::JABATAN[0],
+
+
         ]);
         Dosen::create([
             'id' => '196505191992021001',

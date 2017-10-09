@@ -10,7 +10,9 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('', 'HomeController@index')->name('beranda');
+Route::get('', function (){
+    return url('/beranda');
+});
 Auth::routes();
 
 Route::get('/beranda', function () {
@@ -63,11 +65,16 @@ Route::get('/fasiljur', function () {
 
 Route::get('/bea', function () {
     return view('bea');
-});
+})->name('bea');
 
 Route::get('/dosen1', function () {
     return view('dosen1');
 });
+
+Route::get('infobeasiswa/{id}',[
+        'uses'=> 'infobeasiswaController@show'
+]);
+
 Route::get('/dosen1','DosenController@show');
 Route::get('/kegiatan','KegiatanController@show');
 Route::get('/bea','BeasiswaController@show');
