@@ -65,8 +65,9 @@ Route::get('/bea', function () {
     return view('bea');
 });
 
-Route::get('/dosen', function () {
-    return view('dosen');
+Route::get('/dosen1', function () {
+    return view('dosen1');
 });
-Route::get('/dosen','DosenController@show');
+Route::get('/dosen1','DosenController@show');
 Route::get('/kegiatan','KegiatanController@show');
+Route::get('/bea','BeasiswaController@show');

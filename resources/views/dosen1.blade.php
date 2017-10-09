@@ -2,8 +2,8 @@
 /**
  * Created by PhpStorm.
  * User: asus
- * Date: 9/20/2017
- * Time: 5:57 PM
+ * Date: 9/22/2017
+ * Time: 4:22 PM
  */
 ?>
         <!doctype html>
@@ -39,69 +39,36 @@
 
 <div class="callout large primary" STYLE="background-color: #ffa500">
     <div class="row column text-center" >
-        <h3>KEMAHASISWAAN</h3>
+        <h3>Daftar Nama Dosen Jurusan Teknik Informatika</h3>
     </div>
 </div>
+
 <!-- We can now combine rows and columns when there's only one column in that row -->
 <div class="row" id="content">
     <div class="medium-9 columns">
-    <p><img src="../../../Users/Achmad Abdu Lathif/Documents/Unnamed Site 2/fix-banner123-copy11.jpg"> </p>
-    <p>NAMA PENGURUS JURUSAN S1 TEKNIK INFORMATIKA PERIODE 2016 -2020 </p>
-    <p>-&gt; KETUA JURUSAN<br>
-        Rina Harimurti, S.Pd.,M.T</p>
-    <p>-&gt; SEKRETARIS JURUSAN<br>
-        Anita Qoiriah, S.Kom., M.Kom.</p>
-    <p>-&gt; PEMBINA KEMAHASISWAAN<br>
-        Salamun Rohman N, S.Kom., M.Kom.</p>
-    <p>-&gt; UNIT PENUNJANG<br>
-        &gt;Tim Pengelola Jurnal :<br>
-        Aries Dwi Indriyanti, S.Kom., M.Kom.<br>
-        I Made
-        Suartana, S.Kom., M.Kom.<br>
-        Ardhini Warih Utami, S.Kom., M.Kom.<br>
-        &gt;Tim Unit Penjaminan Mutu (UPM) :<br>
-        Drs. Bambang Sujatmiko, MT.<br>
-        Rahadian Bisma, S.Kom., M.Kom.<br>
-        I Kadek Dwi Nuryana, S.T., M.Kom.<br>
-        Ricky Eka Putra, S.Kom., M.Kom.</p>
-    <p>-&gt; STAF PELAKSANA<br>
-        &gt;Administrasi :<br>
-        Wuri Handayani, S.H.<br>
-        Ratna Prahastuti, AMd.<br>
-        Benny Yulianto<br>
-        &gt;Teknisi :<br>
-        Dodik Arwin D, SST., M.T<br>
-        Sholikhun, S.T.<br>
-        Sugianto, AMd.</p>
-    <p>-&gt; KAPRODI S1 PEND. TEKNOLOGI INFORMASI<br>
-        Setya Chendra Wibawa, S.Pd., M.T.</p>
-    <p>-&gt; KAPRODI S1 TEKNIK INFORMATIKA<br>
-        Aditya Prapanca, S.T., M.Kom.</p>
-    <p>-&gt; KAPRODI S1 SISTEM INFORMASI<br>
-        Dwi Fatrianto, S.Kom., M.Kom.</p>
-    <p>-&gt; KAPRODI D3 MANAJEMEN INFORMATIKA<br>
-        Asmunin, S.Kom., M.Kom.</p>
-    <p>-&gt; PENGURUS LAB<br>
-        &gt;KETUA LAB<br>
-        Naim Rochmawati, S.Kom., M.T.<br>
-    </p>
-    <p>&gt;Lab Rekayasa Perangkat Lunak (RPL)<br>
-        Ari Kurniawan, S.Kom., M.T<br>
-        &gt;Lab Sistem Informasi<br>
-        Dedy Rahman Prehanto, S.Kom., M.Kom.<br>
-        &gt;Lab Multimedia Kreatif<br>
-        Ibnu Febry Kurniawan, S.Kom., M.Sc<br>
-        &gt;Lab Jaringan<br>
-        IGL Putra Eka Prismana, S.Kom., M.M
-    </p>
-</div>
+        @foreach($listdosen as $dosen)
+            <div class="small-6 columns">
+                <figure class="label-info">
+                    <img src="img/{{$dosen->foto}}" width="200px" height="210px" alt=""/>
+                    <figcaption>
+                        <label>NIP</label>
+                        <p>{{ $dosen->id }}</p>
+                        <label>Nama</label>
+                        <p>{{ $dosen->nama }}</p>
+                        <label>Jabatan</label>
+                        <p>{{ $dosen->jabatan }}</p>
+                    </figcaption>
+                </figure>
+            </div>
+        @endforeach
+            </div>
     <div class="medium-3 columns" data-sticky-container>
         <div class="sticky" data-sticky data-anchor="content">
             <h4>Profil</h4>
             <ul>
-                <li><a href="visidanmisi">Visi Misi</a></li>
                 <li><a href="sejarah">Sejarah</a></li>
-                <li><a href="dosen1">Dosen & Staf</a></li>
+                <li><a href="kemahasiswaan">Kemahasiswaan</a></li>
+                <li><a href="dosen1">Data Dosen</a></li>
             </ul>
 
         </div>
@@ -160,3 +127,6 @@
 </script>
 </body>
 </html>
+
+
+

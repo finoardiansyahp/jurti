@@ -42,33 +42,18 @@
 <div class="blog">
     <h3 class="text-center"> Raih kesempatan untuk dapat <span class="orange"> <b> Beasiswa </b></span></h3>
     <div class="row">
+        @foreach($listbea as $beasiswa)
         <div class="medium-4 large-4 columns">
             <div class="blog-item">
-                <img style="height: 210px; width: 500px" src="img/beasiswamandiri.jpg" >
-                <span class="blue-bg label">Bank Mandiri</span>
-                <h5>Beasiswa Bank Mandiri</h5>
-                <p >Beasiswa mandiri adalah beasiswa yang deberikan oleh bank Mandiri kepada mahasiswa yang kurang secara financial tetapi memiliki keinginan tinggi untuk melanjutkan pendidikannya.</p><hr>
-                December 31, 2016 | Posted by Luke Wilder
+                <img style="height: 210px; width: 500px" src="img/{{$beasiswa->gambar}}" >
+                <span class="blue-bg label">{{$beasiswa->judul}}</span>
+                <h5>{{$beasiswa->judul}}</h5>
+                <p>{{$beasiswa->sedikit}}</p><hr>
+                {{$beasiswa->created_at}}
             </div>
         </div>
-        <div class="medium-4 large-4 columns">
-            <div class="blog-item">
-                <img style="height: 210px; width: 500px" src="img/bi.png" >
-                <span class="blue-bg label">Bank Indonesia</span>
-                <h5>Beasiswa Bank Indonesia</h5>
-                <p>Beasiswa BI 2017/2018 khusus Beasiswa Bank Indonesia 2017 Beasiswa menjadi suatu hal yang paling diinginkan pelajar, tidak terkecuali mahasiswa. Beasiswa merupakan sebuah bantuan yang diberikan oleh lembaga, instansi atau perorangan dengan cara memperingan biaya pendidikan seseorang. Pintar dan berprestasi menjadi syarat mutlak untuk mendapatkan beasiswa</p><hr>
-                December 31, 2016 | Posted by Luke Wilder
-            </div>
-        </div>
-        <div class="medium-4 large-4 columns">
-            <div class="blog-item">
-                <img style="height: 210px; width: 500px" src="img/lpdp.png" >
-                <span class="blue-bg label">LPDP</span>
-                <h5>Beasiswa LPDP</h5>
-                <p>Beasiswa Magister & Doktor dari LPDP (Lembaga Pengelola Dana Pendidikan) Sasaran bantuan program beasiswa ini adalah Warga Negara Indonesia yang berkemampuan akademik dan kepemimpinan yang tinggi dan lolos proses seleksi untuk melaksanakan studi pada program Magister dan Doktor.</p><hr>
-                December 31, 2016 | Posted by Luke Wilder
-            </div>
-        </div>
+        @endforeach
+
     </div>
 </div>
 <div class="row" id="content">

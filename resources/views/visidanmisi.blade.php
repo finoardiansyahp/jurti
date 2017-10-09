@@ -80,6 +80,7 @@
             <ul>
                 <li><a href="sejarah">Sejarah</a></li>
                 <li><a href="kemahasiswaan">Kemahasiswaan</a></li>
+                <li><a href="dosen1">Dosen & Staf</a></li>
             </ul>
 
         </div>

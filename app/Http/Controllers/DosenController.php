@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 class DosenController extends Controller
 {
     public function show(){
-        return view('dosen',[
+        return view('dosen1',[
             'listdosen' => Dosen::all()
         ]);
     }

@@ -58,6 +58,7 @@
             <ul>
                 <li><a href="visidanmisi">Visi Misi</a></li>
                 <li><a href="kemahasiswaan">Kemahasiswaan</a></li>
+                <li><a href="dosen1">Dosen & Staf</a></li>
             </ul>
 
         </div>
