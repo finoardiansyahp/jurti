@@ -23,7 +23,7 @@
     <div class="top-bar-left">
         <ul class="menu">
             <li><a href="beranda">Beranda</a></li>
-            <li><a href="profil">Sejarah</a></li>
+            <li><a href="sejarah">Sejarah</a></li>
             <li><a href="kegiatanjurti">Kegiatan</a></li>
             <li><a href="loker">Lo-Ker</a></li>
         </ul>
@@ -45,7 +45,7 @@
 <!-- We can now combine rows and columns when there's only one column in that row -->
 <div class="row" id="content">
     <div class="medium-9 columns">
-    <p><img src="../../../Users/Achmad Abdu Lathif/Documents/Unnamed Site 2/fix-banner123-copy11.jpg"> </p>
+    <p><img src="img/tiu.jpg"> </p>
     <p>NAMA PENGURUS JURUSAN S1 TEKNIK INFORMATIKA PERIODE 2016 -2020 </p>
     <p>-&gt; KETUA JURUSAN<br>
         Rina Harimurti, S.Pd.,M.T</p>

@@ -41,7 +41,7 @@
 
             <div class="callout">
                 <ul class="menu simple">
-                    <li><a href="{{url('infobeasiswa',[$beasiswa->id])}}">Baca Selengkapnya. . .</a></li>
+                    <li><a href="{{url('infobeasiswa',[$beasiswa->id=''])}}">Baca Selengkapnya. . .</a></li>
                 </ul>
             </div>
         </div>

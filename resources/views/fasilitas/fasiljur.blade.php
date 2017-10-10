@@ -10,13 +10,14 @@
 <div class="row">
     @foreach($listfasil as $fasilitas)
         <div class="medium-6 columns medium-push-6">
-            <img class="thumbnail" src="img/{{$fasilitas->gambar}}">
+            <img style="width: 600px; height: 480px" class="thumbnail" src="img/{{$fasilitas->gambar}}">
         </div>
         <div class="medium-6 columns medium-pull-6">
             <h2>{{$fasilitas->judul}}</h2>
-            <p>{{$fasilitas->keterangan}}</p>
+            <p style="text-align: justify">{!!$fasilitas->keterangan!!}</p>
 
         </div>
+        <hr>
         @endforeach
 </div>
 {{--<div class="row">
@@ -39,46 +40,16 @@
 
 
 <div class="row column">
-    <h3>Fasilitas Teknik Informatika</h3>
+    <h3><center>Fasilitas Teknik Informatika</center></h3>
 </div>
 
 <div class="foto row medium-up-3 large-up-4" id="foto">
+    @foreach($listfasil as $fasilitas)
     <div class="column">
-        <img class="thumbnail" style="width: 550px;height: 265px" src="img/jarkom.jpg">
+        <img class="thumbnail" style="width: 550px;height: 265px" src="img/{{$fasilitas->gambar}}">
     </div>
-    <div class="column">
-        <img class="thumbnail" style="width: 550px;height: 265px" src="img/mm.jpg">
-    </div>
-    <div class="column">
-        <img class="thumbnail" style="width: 550px;height: 265px" src="img/rpl.jpg">
-    </div>
-    <div class="column">
-        <img class="thumbnail" style="width: 550px;height: 265px" src="img/jarkom.jpg">
-    </div>
-    <div class="column">
-        <img class="thumbnail" style="width: 550px;height: 265px" src="img/mm.jpg">
-    </div>
-    <div class="column">
-        <img class="thumbnail" style="width: 550px;height: 265px" src="img/rpl.jpg">
-    </div>
-    <div class="column">
-        <img class="thumbnail" style="width: 550px;height: 265px" src="img/jarkom.jpg">
-    </div>
-    <div class="column">
-        <img class="thumbnail" style="width: 550px;height: 265px" src="img/mm.jpg">
-    </div>
-    <div class="column">
-        <img class="thumbnail" style="width: 550px;height: 265px" src="img/rpl.jpg">
-    </div>
-    <div class="column">
-        <img class="thumbnail" style="width: 550px;height: 265px" src="img/jarkom.jpg">
-    </div>
-    <div class="column">
-        <img class="thumbnail" style="width: 550px;height: 265px" src="img/mm.jpg">
-    </div>
-    <div class="column">
-        <img class="thumbnail" style="width: 550px;height: 265px" src="img/rpl.jpg">
-    </div>
+    @endforeach
+
 </div>
 
 <hr>
