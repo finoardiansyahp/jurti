@@ -64,12 +64,14 @@
 {{--</div>--}}
 
 <div class="row">
+    @foreach($listfasil as $fasilitas)
     <div class="medium-6 columns medium-push-6">
-        <img class="thumbnail" src="img/jarkom.jpg">
+        <img class="thumbnail" src="img/{{$fasilitas->gambar}}">
     </div>
     <div class="medium-6 columns medium-pull-6">
-        <h2>Lab Jaringan Komputer.</h2>
-        <p>Laboratorium ini memberikan pelayanan kepada mahasiswa untuk kegiatan praktikum, tugas akhir, maupun tugas-tugas mata kuliah yang memerlukan fasilitas jaringan komputer. Selain itu juga memberikan pengabdian kepada masyarakat berupa pelatihan-pelatihan komputer dan penelitian-penelitian yang memanfaatkan jaringan komputer. Laboratorium ini diperlengkapi dengan perangkat jaringan dari CISCO, sejumlah handphone (Symbian dan Android), dan sejumlah komputer yang dapat digunakan untuk mengerjakan tugas atau mengakses Internet secara gratis selama tidak digunakan untuk praktikum atau kuliah.</p>
+        <h2>{{$fasilitas->judul}}</h2>
+        <p>{{$fasilitas->keterangan}}</p>
+
     </div>
 </div>
 

@@ -64,7 +64,7 @@ Hampir serupa dengan jenis beasiswa lainnya, beasiswa Bank Indonesia tentu memil
 
         Beasiswa::create([
             'id' => '13',
-            'judul' => 'Pendaftaran Beasiswa PPA 2017 - 2018 untuk S1/DIV dan D3',
+            'judul' => 'Beasiswa PPA',
             'gambar' => 'ppa.jpg',
             'keterangan' => 'Beragam beasiswa kuliah bisa Anda coba untuk mendanai kebutuhan studi yang membebani di 2017. Peluang beasiswa itu ada yang ditujukan bagi pelamar yang baru akan kuliah atau mereka yang saat ini sedang menjalani studi (on going). Nah, peluang beasiswa satu ini ditujukan bagi Anda yang sudah berstatus mahasiswa, baik yang tengah kuliah di perguruan tinggi negeri (PTN) atau pun perguruan tinggi swasta (PTS). Namanya sudah tidak asing. Beasiswa Peningkatan Prestasi Akademik (Beasiswa-PPA) dan Bantuan Biaya Pendidikan Peningkatan Prestasi Akademik (BPP-PPA). Tahun akademik 2017 - 2018, Kementerian Ristekdikti menyiapkan beasiswa tersebut untuk 130 ribu mahasiswa di Tanah Air. Baik PTN maupun PTS.
 

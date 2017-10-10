@@ -78,3 +78,4 @@ Route::get('infobeasiswa/{id}',[
 Route::get('/dosen1','DosenController@show');
 Route::get('/kegiatan','KegiatanController@show');
 Route::get('/bea','BeasiswaController@show');
+Route::get('/fasiljur','FasilitasController@show');
