@@ -3,7 +3,7 @@
  * Created by PhpStorm.
  * User: asus
  * Date: 9/20/2017
- * Time: 11:42 PM
+ * Time: 5:57 PM
  */
 ?>
         <!doctype html>
@@ -16,14 +16,14 @@
     <link rel="stylesheet" href="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
     <link rel="stylesheet" type="text/css" href="foundation-icons.css/foundation-icons.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-
 </head>
 <body>
+
 <div class="top-bar">
     <div class="top-bar-left">
         <ul class="menu">
             <li><a href="beranda">Beranda</a></li>
-            <li><a href="sejarah">Sejarah</a></li>
+            <li><a href="profil">Sejarah</a></li>
             <li><a href="kegiatanjurti">Kegiatan</a></li>
             <li><a href="loker">Lo-Ker</a></li>
         </ul>
@@ -39,97 +39,74 @@
 
 <div class="callout large primary" STYLE="background-color: #ffa500">
     <div class="row column text-center" >
-        <h3>Fasilitas di Jurusan Teknik Informatika</h3>
-        <h4>Jurusan Teknik Informatika menyediakan berbagai fasilitas yang dapat dimanfaatkan oleh mahasiswa dalam menunjang jalannya perkulihan.</h4>
-        <a href="#foto" style="background-color: #cbb956" class="button small">Foto</a>
+        <h3>KEMAHASISWAAN</h3>
     </div>
 </div>
-{{--</div>--}}
-{{--<div class="callout large">--}}
-{{--<div class="row column text-center">--}}
-{{--<h1>Fasilitas di Jurusan Teknik Informatika</h1>--}}
-{{--<p class="lead">Jurusan Teknik Informatika menyediakan berbagai fasilitas yang dapat dimanfaatkan oleh mahasiswa dalam menunjang jalannya perkulihan.</p>--}}
+<!-- We can now combine rows and columns when there's only one column in that row -->
+<div class="row" id="content">
+    <div class="medium-9 columns">
+    <p><img src="../../../Users/Achmad Abdu Lathif/Documents/Unnamed Site 2/fix-banner123-copy11.jpg"> </p>
+    <p>NAMA PENGURUS JURUSAN S1 TEKNIK INFORMATIKA PERIODE 2016 -2020 </p>
+    <p>-&gt; KETUA JURUSAN<br>
+        Rina Harimurti, S.Pd.,M.T</p>
+    <p>-&gt; SEKRETARIS JURUSAN<br>
+        Anita Qoiriah, S.Kom., M.Kom.</p>
+    <p>-&gt; PEMBINA KEMAHASISWAAN<br>
+        Salamun Rohman N, S.Kom., M.Kom.</p>
+    <p>-&gt; UNIT PENUNJANG<br>
+        &gt;Tim Pengelola Jurnal :<br>
+        Aries Dwi Indriyanti, S.Kom., M.Kom.<br>
+        I Made
+        Suartana, S.Kom., M.Kom.<br>
+        Ardhini Warih Utami, S.Kom., M.Kom.<br>
+        &gt;Tim Unit Penjaminan Mutu (UPM) :<br>
+        Drs. Bambang Sujatmiko, MT.<br>
+        Rahadian Bisma, S.Kom., M.Kom.<br>
+        I Kadek Dwi Nuryana, S.T., M.Kom.<br>
+        Ricky Eka Putra, S.Kom., M.Kom.</p>
+    <p>-&gt; STAF PELAKSANA<br>
+        &gt;Administrasi :<br>
+        Wuri Handayani, S.H.<br>
+        Ratna Prahastuti, AMd.<br>
+        Benny Yulianto<br>
+        &gt;Teknisi :<br>
+        Dodik Arwin D, SST., M.T<br>
+        Sholikhun, S.T.<br>
+        Sugianto, AMd.</p>
+    <p>-&gt; KAPRODI S1 PEND. TEKNOLOGI INFORMASI<br>
+        Setya Chendra Wibawa, S.Pd., M.T.</p>
+    <p>-&gt; KAPRODI S1 TEKNIK INFORMATIKA<br>
+        Aditya Prapanca, S.T., M.Kom.</p>
+    <p>-&gt; KAPRODI S1 SISTEM INFORMASI<br>
+        Dwi Fatrianto, S.Kom., M.Kom.</p>
+    <p>-&gt; KAPRODI D3 MANAJEMEN INFORMATIKA<br>
+        Asmunin, S.Kom., M.Kom.</p>
+    <p>-&gt; PENGURUS LAB<br>
+        &gt;KETUA LAB<br>
+        Naim Rochmawati, S.Kom., M.T.<br>
+    </p>
+    <p>&gt;Lab Rekayasa Perangkat Lunak (RPL)<br>
+        Ari Kurniawan, S.Kom., M.T<br>
+        &gt;Lab Sistem Informasi<br>
+        Dedy Rahman Prehanto, S.Kom., M.Kom.<br>
+        &gt;Lab Multimedia Kreatif<br>
+        Ibnu Febry Kurniawan, S.Kom., M.Sc<br>
+        &gt;Lab Jaringan<br>
+        IGL Putra Eka Prismana, S.Kom., M.M
+    </p>
+</div>
+    <div class="medium-3 columns" data-sticky-container>
+        <div class="sticky" data-sticky data-anchor="content">
+            <h4>Profil</h4>
+            <ul>
+                <li><a href="visidanmisi">Visi Misi</a></li>
+                <li><a href="profil">Sejarah</a></li>
+                <li><a href="dosen1">Dosen & Staf</a></li>
+            </ul>
 
-
-{{--</div>--}}
-{{--</div>--}}
-
-<div class="row">
-    @foreach($listfasil as $fasilitas)
-        <div class="medium-6 columns medium-push-6">
-            <img class="thumbnail" src="img/{{$fasilitas->gambar}}">
         </div>
-        <div class="medium-6 columns medium-pull-6">
-            <h2>{{$fasilitas->judul}}</h2>
-            <p>{{$fasilitas->keterangan}}</p>
-
-        </div>
-        @endforeach
-</div>
-{{--<div class="row">
-    <div class="medium-4 columns">
-        <h3>Kepala Labolatorium</h3>
-        <p>Kusworo Anindito, S.T., M.T.</p>
-    </div>
-    <div class="medium-4 columns">
-        <h3>Laboran</h3>
-        <p>Yuni Rastanti, S.T., M.T.</p>
-    </div>
-    <div class="medium-4 columns">
-        <h3>Kegiatan</h3>
-        <p>Praktikum Jaringan Komputer, Praktikum Aplikasi Mobile, Kuliah Pemrograman Mobile Game, Kuliah Keamanan Jaringan, Kuliah Pemrograman Jaringan, Kuliah Pemrograman Web Lanjut, Kuliah Perangkat Lunak berbasis Teknologi Web, Kelompok Studi Linux, Kelompok Studi Mobile, Pelatihan CISCO, Pelatihan Opensource, Pelatihan Aplikasi Mobile
-            dan Pengabdian kepada Masyarakat</p>
-    </div>
-</div>--}}
-
-<hr>
-
-
-<div class="row column">
-    <h3>Fasilitas Teknik Informatika</h3>
-</div>
-
-<div class="foto row medium-up-3 large-up-4" id="foto">
-    <div class="column">
-        <img class="thumbnail" style="width: 550px;height: 265px" src="img/jarkom.jpg">
-    </div>
-    <div class="column">
-        <img class="thumbnail" style="width: 550px;height: 265px" src="img/mm.jpg">
-    </div>
-    <div class="column">
-        <img class="thumbnail" style="width: 550px;height: 265px" src="img/rpl.jpg">
-    </div>
-    <div class="column">
-        <img class="thumbnail" style="width: 550px;height: 265px" src="img/jarkom.jpg">
-    </div>
-    <div class="column">
-        <img class="thumbnail" style="width: 550px;height: 265px" src="img/mm.jpg">
-    </div>
-    <div class="column">
-        <img class="thumbnail" style="width: 550px;height: 265px" src="img/rpl.jpg">
-    </div>
-    <div class="column">
-        <img class="thumbnail" style="width: 550px;height: 265px" src="img/jarkom.jpg">
-    </div>
-    <div class="column">
-        <img class="thumbnail" style="width: 550px;height: 265px" src="img/mm.jpg">
-    </div>
-    <div class="column">
-        <img class="thumbnail" style="width: 550px;height: 265px" src="img/rpl.jpg">
-    </div>
-    <div class="column">
-        <img class="thumbnail" style="width: 550px;height: 265px" src="img/jarkom.jpg">
-    </div>
-    <div class="column">
-        <img class="thumbnail" style="width: 550px;height: 265px" src="img/mm.jpg">
-    </div>
-    <div class="column">
-        <img class="thumbnail" style="width: 550px;height: 265px" src="img/rpl.jpg">
     </div>
 </div>
-
-<hr>
-
 <footer>
     <div class="map">
         <div class="row">
@@ -176,9 +153,6 @@
         </div>
     </div>
 </footer>
-
-
-
 <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 <script src="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
 <script>

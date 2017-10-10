@@ -13,17 +13,17 @@
 <div class="top-bar">
     <div class="top-bar-left">
         <ul class="menu">
-            <li><a href="beranda">Beranda</a></li>
-            <li><a href="sejarah">Sejarah</a></li>
-            <li><a href="kegiatanjurti">Kegiatan</a></li>
-            <li><a href="loker">Lo-Ker</a></li>
+            <li><a href="{{ url('/beranda') }}">Beranda</a></li>
+            <li><a href="{{ url('/sejarah') }}">Sejarah</a></li>
+            <li><a href="{{ url('/kegiatan') }}">Kegiatan</a></li>
+            <li><a href="{{ url('/loker')}}">Lo-Ker</a></li>
         </ul>
     </div>
     <div class="top-bar-right">
         <ul class="menu">
-            <li><a href="fasiljur">Fasilitas</a></li>
-            <li><a href="bea">Beasiswa</a></li>
-            <li><a href="prestasi">Prestasi</a></li>
+            <li><a href="{{ url('/fasiljur') }}">Fasilitas</a></li>
+            <li><a href="{{ url('/bea') }}">Beasiswa</a></li>
+            <li><a href="{{ url('/prestasi')}}">Prestasi</a></li>
         </ul>
     </div>
 </div>

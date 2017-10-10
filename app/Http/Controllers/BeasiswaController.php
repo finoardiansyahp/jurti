@@ -8,7 +8,7 @@ use App\Beasiswa;
 class BeasiswaController extends Controller
 {
     public function show(){
-        return view('bea',[
+        return view('beasiswa/bea',[
             'listbea' => Beasiswa::all()
         ]);
     }

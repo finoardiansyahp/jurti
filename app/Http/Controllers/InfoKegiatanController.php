@@ -15,6 +15,6 @@ class InfoKegiatanController extends Controller
     public function test($id)
     {
         $test = Kegiatan::find($id);
-        return view('infokegiatan',compact('test'));
+        return view('kegiatan/infokegiatan',compact('test'));
     }
 }

@@ -7,7 +7,7 @@ use App\Fasilitas;
 class FasilitasController extends Controller
 {
     public function show(){
-        return view('fasiljur',[
+        return view('fasilitas/fasiljur',[
             'listfasil' => Fasilitas::all()
         ]);
     }

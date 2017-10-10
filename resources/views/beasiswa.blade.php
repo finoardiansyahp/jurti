@@ -29,7 +29,7 @@
                     <a href="#">PROFIL</a>
                     <ul class="submenu menu vertical" data-submenu>
                         <li><a href="visidanmisi">Visi dan Misi</a></li>
-                        <li><a href="sejarah">Sejarah Teknik Informatika</a></li>
+                        <li><a href="profil">Sejarah Teknik Informatika</a></li>
                         <li><a href="kemahasiswaan">Kemahasiswaan</a></li>
                     </ul>
                 </li>

@@ -2,8 +2,8 @@
 /**
  * Created by PhpStorm.
  * User: asus
- * Date: 9/20/2017
- * Time: 5:57 PM
+ * Date: 9/22/2017
+ * Time: 4:22 PM
  */
 ?>
         <!doctype html>
@@ -23,7 +23,7 @@
     <div class="top-bar-left">
         <ul class="menu">
             <li><a href="beranda">Beranda</a></li>
-            <li><a href="sejarah">Sejarah</a></li>
+            <li><a href="profil">Sejarah</a></li>
             <li><a href="kegiatanjurti">Kegiatan</a></li>
             <li><a href="loker">Lo-Ker</a></li>
         </ul>
@@ -39,68 +39,47 @@
 
 <div class="callout large primary" STYLE="background-color: #ffa500">
     <div class="row column text-center" >
-        <h3>KEMAHASISWAAN</h3>
+        <h3>VISI DAN MISI</h3>
     </div>
 </div>
+
 <!-- We can now combine rows and columns when there's only one column in that row -->
 <div class="row" id="content">
     <div class="medium-9 columns">
-    <p><img src="../../../Users/Achmad Abdu Lathif/Documents/Unnamed Site 2/fix-banner123-copy11.jpg"> </p>
-    <p>NAMA PENGURUS JURUSAN S1 TEKNIK INFORMATIKA PERIODE 2016 -2020 </p>
-    <p>-&gt; KETUA JURUSAN<br>
-        Rina Harimurti, S.Pd.,M.T</p>
-    <p>-&gt; SEKRETARIS JURUSAN<br>
-        Anita Qoiriah, S.Kom., M.Kom.</p>
-    <p>-&gt; PEMBINA KEMAHASISWAAN<br>
-        Salamun Rohman N, S.Kom., M.Kom.</p>
-    <p>-&gt; UNIT PENUNJANG<br>
-        &gt;Tim Pengelola Jurnal :<br>
-        Aries Dwi Indriyanti, S.Kom., M.Kom.<br>
-        I Made
-        Suartana, S.Kom., M.Kom.<br>
-        Ardhini Warih Utami, S.Kom., M.Kom.<br>
-        &gt;Tim Unit Penjaminan Mutu (UPM) :<br>
-        Drs. Bambang Sujatmiko, MT.<br>
-        Rahadian Bisma, S.Kom., M.Kom.<br>
-        I Kadek Dwi Nuryana, S.T., M.Kom.<br>
-        Ricky Eka Putra, S.Kom., M.Kom.</p>
-    <p>-&gt; STAF PELAKSANA<br>
-        &gt;Administrasi :<br>
-        Wuri Handayani, S.H.<br>
-        Ratna Prahastuti, AMd.<br>
-        Benny Yulianto<br>
-        &gt;Teknisi :<br>
-        Dodik Arwin D, SST., M.T<br>
-        Sholikhun, S.T.<br>
-        Sugianto, AMd.</p>
-    <p>-&gt; KAPRODI S1 PEND. TEKNOLOGI INFORMASI<br>
-        Setya Chendra Wibawa, S.Pd., M.T.</p>
-    <p>-&gt; KAPRODI S1 TEKNIK INFORMATIKA<br>
-        Aditya Prapanca, S.T., M.Kom.</p>
-    <p>-&gt; KAPRODI S1 SISTEM INFORMASI<br>
-        Dwi Fatrianto, S.Kom., M.Kom.</p>
-    <p>-&gt; KAPRODI D3 MANAJEMEN INFORMATIKA<br>
-        Asmunin, S.Kom., M.Kom.</p>
-    <p>-&gt; PENGURUS LAB<br>
-        &gt;KETUA LAB<br>
-        Naim Rochmawati, S.Kom., M.T.<br>
-    </p>
-    <p>&gt;Lab Rekayasa Perangkat Lunak (RPL)<br>
-        Ari Kurniawan, S.Kom., M.T<br>
-        &gt;Lab Sistem Informasi<br>
-        Dedy Rahman Prehanto, S.Kom., M.Kom.<br>
-        &gt;Lab Multimedia Kreatif<br>
-        Ibnu Febry Kurniawan, S.Kom., M.Sc<br>
-        &gt;Lab Jaringan<br>
-        IGL Putra Eka Prismana, S.Kom., M.M
-    </p>
+    <div class="blog-post">
+        <h3>VISI</h3>
+        <p>Mewujudkan Program Studi yang unggul dalam pengembangan teknologi informasi yang berkarakter dalam skala nasional</p>
+    </div>
+
+    <div class="blog-post">
+        <h3>MISI</h3>
+        <p>1. Menyelenggarakan manajemen prodi yang kredibel, akuntabel dan transparan sesuai standar penjaminan mutu.<br>
+            2. Menghasilkan lulusan yang berkompeten dan berkarakter.<br>
+            3. Melaksanakan penelitian dibidang teknologi informasi dan hasil-hasilnya dipublikasikan minimal ditingkat nasional. <br>
+            4. Melaksanakan pengabdian kepada masyarakat dalam menerapkan keilmuannya. <br>
+            5. Menjalin kerjasama yang berkelanjutan dengan berbagai instansi dan dunia industri.</p>
+    </div>
+
+    <div class="blog-post">
+        <h3>TUJUAN</h3>
+        <p>1. Terselenggaranya manajemen prodi yang kredibel, akuntabel dan transparan sesuai standar penjaminan mutu;<br>
+            2. Menghasilkan lulusan yang memiliki kemampuan professional di bidang teknik informatika untuk menciptakan karya dan mengaplikasikannya di dunia kerja;<br>
+            3. Menghasilkan penelitian-penelitian dibidang teknologi informasi dan hasil-hasilnya dipublikasikan minimal ditingkat nasional;<br>
+            4. Menghasilkan karya teknologi informasi yang dapat digunakan secara langsung oleh masyarakat;<br>
+            5. Terlaksananya kerjasama yang berkelanjutan dengan berbagai instansi dan dunia industri dibidang teknologi informasi.<br>
+        </p>
+    </div>
+
+    <div class="blog-post">
+        <h3>&nbsp;</h3>
+    </div>
 </div>
     <div class="medium-3 columns" data-sticky-container>
         <div class="sticky" data-sticky data-anchor="content">
             <h4>Profil</h4>
             <ul>
-                <li><a href="visidanmisi">Visi Misi</a></li>
-                <li><a href="sejarah">Sejarah</a></li>
+                <li><a href="profil">Sejarah</a></li>
+                <li><a href="kemahasiswaan">Kemahasiswaan</a></li>
                 <li><a href="dosen1">Dosen & Staf</a></li>
             </ul>
 
@@ -160,3 +139,6 @@
 </script>
 </body>
 </html>
+
+
+

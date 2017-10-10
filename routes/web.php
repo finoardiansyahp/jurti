@@ -11,16 +11,12 @@
 |
 */
 Route::get('', function (){
-    return url('/beranda');
+    return redirect('beranda');
 });
 Auth::routes();
 
 Route::get('/beranda', function () {
-    return view('beranda');
-});
-
-Route::get('/', function () {
-    return view('welcome');
+    return view('beranda/beranda');
 });
 
 Route::get('/percobaan1', function () {
@@ -33,22 +29,22 @@ Route::get('/kegiatanjurti', function () {
 });
 
 Route::get('/visidanmisi', function () {
-    return view('visidanmisi');
+    return view('profil/visidanmisi');
 });
 
 Route::get('/sejarah', function () {
-    return view('sejarah');
+    return view('profil/sejarah');
 });
 
 Route::get('/kemahasiswaan', function () {
-    return view('kemahasiswaan');
+    return view('profil/kemahasiswaan');
 });
 
 Route::get('/prestasi', function () {
-    return view('prestasi');
+    return view('prestasi/prestasi');
 });
 Route::get('/loker', function () {
-    return view('loker');
+    return view('loker/loker');
 });
 
 Route::get('/beasiswa', function () {
@@ -60,7 +56,7 @@ Route::get('/fasilitas', function () {
 });
 
 Route::get('/fasiljur', function () {
-    return view('fasiljur');
+    return view('fasilitas/fasiljur');
 });
 
 Route::get('/bea', function () {
@@ -68,7 +64,7 @@ Route::get('/bea', function () {
 })->name('bea');
 
 Route::get('/dosen1', function () {
-    return view('dosen1');
+    return view('profil/dosen1');
 });
 
 Route::get('infobeasiswa/{id}',[

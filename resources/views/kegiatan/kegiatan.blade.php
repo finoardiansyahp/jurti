@@ -9,7 +9,7 @@
         <div class="row medium-8 large-7 columns">
             <div class="blog-post">
                 <h4>{{ $kegiatan->judul }}</h4>
-                <img class="thumbnail" src="{{ asset('img/bultang.jpg') }}">
+                <img class="thumbnail" src="img/{{$kegiatan->gambar}}">
                 <p>{{ $kegiatan->keterangan }}</p>
                 <a href="{{url('/test-'.$kegiatan->id)}}" class="button small">Baca Selengkapnya disini</a>
             </div>

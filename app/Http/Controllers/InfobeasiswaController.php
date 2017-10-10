@@ -8,7 +8,7 @@ use App\Beasiswa;
 class InfobeasiswaController extends Controller
 {
     public function show($id){
-        return view('infobeasiswa',[
+        return view('beasiswa/infobeasiswa',[
             'beasiswa' => Beasiswa::find($id)
         ]);
     }
