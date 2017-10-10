@@ -1,55 +1,33 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: asus
- * Date: 9/20/2017
- * Time: 11:42 PM
- */
-?>
-        <!doctype html>
+<!doctype html>
 <html class="no-js" lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jurusan Teknik Informatika</title>
+    <title>Welcome To JTIF</title>
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
-    <link rel="stylesheet" type="text/css" href="foundation-icons.css/foundation-icons.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-
 </head>
 <body>
-
 
 <div class="top-bar">
     <div class="top-bar-left">
         <ul class="menu">
-            <li><a href="{{ url('/beranda') }}">Beranda</a></li>
-            <li><a href="{{ url('/sejarah') }}">Sejarah</a></li>
-            <li><a href="{{ url('/kegiatanjurti') }}">Kegiatan</a></li>
-            <li><a href="{{ url('/loker')}}">Lo-Ker</a></li>
+            <li><a href="beranda">Beranda</a></li>
+            <li><a href="sejarah">Sejarah</a></li>
+            <li><a href="kegiatanjurti">Kegiatan</a></li>
+            <li><a href="loker">Lo-Ker</a></li>
         </ul>
     </div>
     <div class="top-bar-right">
         <ul class="menu">
-            <li><a href="{{ url('/fasiljur') }}">Fasilitas</a></li>
-            <li><a href="{{ url('/bea') }}">Beasiswa</a></li>
-            <li><a href="{{ url('/prestasi')}}">Prestasi</a></li>
+            <li><a href="fasiljur">Fasilitas</a></li>
+            <li><a href="bea">Beasiswa</a></li>
+            <li><a href="prestasi">Prestasi</a></li>
         </ul>
     </div>
 </div>
-
-{{--<div class="row" id="content">--}}
-<div class="row medium-8 large-7 columns">
-<div class="blog">
-
-    <h3 class="text-center"><span>{{$beasiswa->judul}}</span></h3>
-    <center><img src="{{asset ('img/'.$beasiswa->gambar)}}" style="object-fit:cover"  width="600px" height="200px"></center>
-    <br>
-    <p style="text-align: justify">{!!$beasiswa->keterangan!!}</p>
-
-</div>
-</div>
+@yield('content')
 <footer>
     <div class="map">
         <div class="row">
@@ -96,9 +74,16 @@
         </div>
     </div>
 </footer>
-
-
-
+<!--
+    <div class="row column">
+      <ul class="menu">
+        <li><a href="#">One</a></li>
+        <li><a href="#">Two</a></li>
+        <li><a href="#">Three</a></li>
+        <li><a href="#">Four</a></li>
+      </ul>
+    </div>
+    -->
 <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 <script src="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
 <script>
@@ -106,3 +91,4 @@
 </script>
 </body>
 </html>
+
