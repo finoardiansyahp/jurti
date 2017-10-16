@@ -104,8 +104,17 @@
     </div>
 
     <hr>
-
     <div class="row">
+        @foreach($listberanda as $beranda)
+            <div class="large-6 columns">
+                <div class="blog-post">
+                    <h3>{{$beranda->judul}}</h3>
+                    <img class="thumbnail" src="img/{{$beranda->gambar}}">
+                    <p style="max-height: 100px; overflow: hidden">{{$beranda->keterangan}}</p>
+                </div>
+            </div>
+        @endforeach
+  <!--  <div class="row">
         <div class="large-6 columns">
             <h4>PMW 2017</h4>
             <img class="thumbnail" src="{{ asset('img/2.jpg') }}">
@@ -123,6 +132,7 @@
                 Ketintang.</p>
         </div>
     </div>
-
+-->
     <hr>
+
 @endsection

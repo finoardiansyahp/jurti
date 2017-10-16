@@ -10,7 +10,16 @@
 <hr>
 
 <div class="row" id="content">
-    <div class="medium-8 columns">
+    @foreach($listloker as $loker)
+        <div class="medium-8 columns">
+            <div class="blog-post">
+                <h3>{{$loker->judul}}<small>  {{$loker->created_at}}</small></h3>
+                <img class="thumbnail" src="img/{{$loker->gambar}}">
+                <p style="max-height: 100px; overflow: hidden">{{$loker->keterangan}}</p>
+            </div>
+        </div>
+    @endforeach
+<!--    <div class="medium-8 columns">
         <div class="blog-post">
             <h3>GoJek <small>3/6/2015</small></h3>
             <img class="thumbnail" src="{{ asset('img/4.jpg') }}">
@@ -88,4 +97,5 @@
         <li><a href="#" aria-label="Next page">Next</a></li>
     </ul>
 </div>
+-->
       @endsection

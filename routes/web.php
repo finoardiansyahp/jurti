@@ -82,3 +82,5 @@ Route::get('/kegiatan','KegiatanController@show');
 Route::get('/bea','BeasiswaController@show');
 Route::get('/fasiljur','FasilitasController@show');
 Route::get('/prestasi','PrestasiController@show');
+Route::get('/loker','LokerController@show');
+Route::get('/beranda','BerandaController@show');
