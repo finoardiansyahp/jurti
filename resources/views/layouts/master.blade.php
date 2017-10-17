@@ -45,9 +45,9 @@
                 <div class="large-12 columns">
                     <div class="display-table" style=" width:100%;">
                         <div class="va-align">
-                            <h4>TeknikInformatika@gmail.com </h4>
-                            1842 Jalan Gajah Mada, St.Independence, Tel Aviv 39337
-                            <br> 767-621-0086
+                            <h4>TeknikInformatika15@gmail.com </h4>
+                            Kampus UNESA Ketintang Gedung A1
+
                         </div>
                     </div>
                 </div>
@@ -61,11 +61,11 @@
 
                     <a href="http://twitter.com/dieterarno" class="lsf-icon" style="font-size:16px; margin-right:15px" title="twitter"><img src="{{ asset('img/webicon-twitter-m.png') }}"></a>
 
-                    <a href="http://csstemplateheaven.com/csstemplateheaven" class="lsf-icon" style="font-size:16px; margin-right:15px" title="facebook"><img src="{{ asset('img/webicon-facebook-m.png') }}"></a>
+                    <a href="https://www.facebook.com/Informatikaunesa/?hc_ref=ARSn6r4DT9gUIBVfLH18B5mIZxkCMIGq_3gHyAekjr9ythigMtRPU1TY8Xh8FmirMVU" class="lsf-icon" style="font-size:16px; margin-right:15px" title="facebook"><img src="{{ asset('img/webicon-facebook-m.png') }}"></a>
 
                     <a href="http://if.unesa.ac.id/" class="lsf-icon" style="font-size:16px; margin-right:15px" title="google"><img src="{{ asset('img/webicon-google-m.png') }}"></a>
 
-                    <a href="http://twitter.com/dieterarno" class="lsf-icon" style="font-size:16px" title="instagram"><img src="{{ asset('img/webicon-instagram-m.png') }}"></a>
+                    <a href="https://www.instagram.com/himti_unesa/" class="lsf-icon" style="font-size:16px" title="instagram"><img src="{{ asset('img/webicon-instagram-m.png') }}"></a>
 
                 </div>
                 &copy; 2017 Teknik Informatika.
