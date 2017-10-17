@@ -76,7 +76,7 @@ Route::get('infokegiatan/{id}',[
 ]);
 
 Route::get('/test-{id}','InfoKegiatanController@test')->name('test');
-
+Route::get('/prestasi-{id}','InfoPrestasiController@prestasi')->name('prestasi');
 Route::get('/dosen1','DosenController@show');
 Route::get('/kegiatan','KegiatanController@show');
 Route::get('/bea','BeasiswaController@show');

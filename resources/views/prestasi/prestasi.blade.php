@@ -12,7 +12,7 @@
             <img class="thumbnail" src="img/{{$prestasi->gambar}}">
             <p>{{ $prestasi->keterangan }}
             </p>
-            <a href="{{url('/test-'.$prestasi->id)}}" class="button small">Baca Selengkapnya disini</a>
+            <a href="{{url('/prestasi-'.$prestasi->id)}}" class="button small">Baca Selengkapnya disini</a>
         </div>
     </div>
 @endforeach

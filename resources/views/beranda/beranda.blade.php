@@ -1,35 +1,3 @@
-{{--<!-- Start Top Bar -->--}}
-{{--<div class="top-bar">--}}
-{{--<div class="row">--}}
-{{--<div class="top-bar-left">--}}
-{{--<ul class="dropdown menu" data-dropdown-menu>--}}
-{{--<li class="menu-text">JURTI</li>--}}
-{{--<li><a href="beranda"><i class="fi-list-number"></i> <span>BERANDA</span></a></li>--}}
-{{--<li class="has-submenu">--}}
-{{--<a href="#">PROFIL</a>--}}
-{{--<ul class="submenu menu vertical" data-submenu>--}}
-{{--<li><a href="visidanmisi">Visi dan Misi</a></li>--}}
-{{--<li><a href="sejarah">Sejarah Teknik Informatika</a></li>--}}
-{{--<li><a href="kemahasiswaan">Kemahasiswaan</a></li>--}}
-{{--</ul>--}}
-{{--</li>--}}
-{{--<li><a href="bea">BEASISWA</a></li>--}}
-{{--<li><a href="prestasi">PRESTASI</a></li>--}}
-{{--<li><a href="loker">LO-KER</a></li>--}}
-{{--<li><a href="kegiatanjurti">KEGIATAN</a></li>--}}
-{{--<li><a href="fasiljur">FASILITAS</a></li>--}}
-{{--</ul>--}}
-{{--</div>--}}
-
-{{--</div>--}}
-{{--</div>--}}
-{{--<div class="top-bar-right">--}}
-{{--<ul class="menu">--}}
-
-{{--</ul>--}}
-{{--</div>--}}
-{{--</div>--}}
-<!-- End Top Bar -->
 @extends('layouts.master')
 @section('content')
     <hr>
@@ -114,25 +82,7 @@
                 </div>
             </div>
         @endforeach
-  <!--  <div class="row">
-        <div class="large-6 columns">
-            <h4>PMW 2017</h4>
-            <img class="thumbnail" src="{{ asset('img/2.jpg') }}">
-            <p>PMW (Program Mahasiswa Wirausaha) adalah suatu program yang digagas oleh Dikti untuk dikembangkan ke
-                dalam kehidupan kampus guna merangsang jiwa enterpreneurship (kewirausahaan) dalam diri mahasiwa.
-                Program ini dilaksanakan setiap tahun pada hampir seluruh Universitas negeri dan Swasta di
-                Indonesia.</p>
-        </div>
-        <div class="large-6 columns">
-            <h4>X-PROJECT</h4>
-            <img class="thumbnail" src="{{ asset('img/3.jpg') }}">
-            <p>X-PROJECT 2015 merupakan acara perdana yang diadakan oleh jurusan Teknik Informatika UNESA. Tentu karena
-                jurusan Teknik Informatika adalah jurusan yang baru berdiri tahun ini yang terdiri atas 4 program studi.
-                Acara ini berlangsung pada Selasa, 22 desember 2015 tepatnya di Gedung B1 Teknik Informatika Unesa
-                Ketintang.</p>
-        </div>
-    </div>
--->
-    <hr>
 
+    <hr>
+    </div>
 @endsection
