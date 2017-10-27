@@ -41,7 +41,7 @@
 
             <div class="callout">
                 <ul class="menu simple">
-                    <li><a href="{{url('infobeasiswa',[$beasiswa->id=''])}}">Baca Selengkapnya. . .</a></li>
+                    <li><a href="{{url('/beasiswa-'.$beasiswa->id)}}">Baca Selengkapnya. . .</a></li>
                 </ul>
             </div>
         </div>
@@ -51,10 +51,10 @@
         <div class="sticky" data-sticky data-anchor="content">
             <h4>Kategori</h4>
             <ul>
-                <li><a href="{{url('infobeasiswa',[$beasiswa->id])}}">Beasiswa BI</a></li>
-                <li><a href="#">Beasiswa Mandiri</a></li>
-                <li><a href="#">Beasiswa PPA</a></li>
-                <li><a href="#">Beasiswa LPDP</a></li>
+                <li><a href="{{url('/beasiswa-10')}}">Beasiswa BI</a></li>
+                <li><a href="{{url('/beasiswa-11')}}">Beasiswa Mandiri</a></li>
+                <li><a href="{{url('/beasiswa-13')}}">Beasiswa PPA</a></li>
+                <li><a href="{{url('/beasiswa-12')}}">Beasiswa LPDP</a></li>
             </ul>
         </div>
     </div>

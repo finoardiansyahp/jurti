@@ -68,8 +68,9 @@ Route::get('/dosen1', function () {
 });
 
 Route::get('infobeasiswa/{id}',[
-        'uses'=> 'infobeasiswaController@show'
+    'uses'=> 'infobeasiswaController@show'
 ]);
+
 
 Route::get('infokegiatan/{id}',[
     'uses'=> 'infokegiatanController@show'
@@ -84,3 +85,4 @@ Route::get('/fasiljur','FasilitasController@show');
 Route::get('/prestasi','PrestasiController@show');
 Route::get('/loker','LokerController@show');
 Route::get('/beranda','BerandaController@show');
+Route::get('/beasiswa-{id}','InfobeasiswaController@beasiswa')->name('beasiswa');
